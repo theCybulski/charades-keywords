@@ -5,13 +5,12 @@ import { CATEGORIES, COMPLEXITY } from "./charades-keywords";
 describe('charades-keywords', () => {
   describe('all', () => {
     it('should be an array of keywords', () => {
-      const validateCategory = (category) => (
-        Object.values(CATEGORIES).includes(category)
-      )
+      const validateCategory = (category) =>
+        Object.keys(CATEGORIES).map(key => CATEGORIES[key]).includes(category);
 
-      const validateComplexity = (complexity) => (
-        Object.values(COMPLEXITY).includes(complexity)
-      )
+      const validateComplexity = (complexity) =>
+        Object.keys(COMPLEXITY).map(key => COMPLEXITY[key]).includes(complexity);
+
 
       const isArrayOfKeywords = (array) => array.every((item) => (
         validateCategory(item.category)

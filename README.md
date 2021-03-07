@@ -4,9 +4,9 @@ Find a random keyword for the game of charades! (Polish only)
 
 ## Install
 ```
-npm install --save random
+npm install --save charades-keywords
 # or
-yarn add random
+yarn add charades-keywords
 ```
 
 ## Usage

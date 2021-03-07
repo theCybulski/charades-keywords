@@ -9,6 +9,7 @@ export const getRandomItems = (qty, array) => {
     while (randomItems.length < qty) {
       const randomItem = array[Math.floor(Math.random() * array.length)];
 
+      // istanbul ignore next
       if (!randomItems.includes(randomItem)) {
         randomItems.push(randomItem);
       }

@@ -3,6 +3,7 @@
 Find a random keyword for the game of charades! (Polish only)
 
 [![codecov](https://codecov.io/gh/theCybulski/charades-keywords/branch/master/graph/badge.svg?token=UQR6ZPM29W)](https://codecov.io/gh/theCybulski/charades-keywords)
+[![Build Status](https://travis-ci.org/theCybulski/charades-keywords.svg?branch=master)](https://travis-ci.org/theCybulski/charades-keywords)
 
 ## Install
 ```
